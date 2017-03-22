@@ -16,8 +16,11 @@ Source codes for front-end and back-end are available in separate projects:
 * [Back-end source](https://github.com/andrei0000/food-trucks-server)
 
 A user opens an app in a browser and can specify a desired location (by clicking on a map) and a desired search area in miles (using appropriate slider).
+
 A UI part contacts our back-end service which in turn queries the food trucks database based on the criteria supplied by the user.
+
 Food trucks positions matching the specified critera are displayed on a map.
+
 User can click on a desired truck marker in order to see an additional information about the specific truck (truck type and food items it delivers).
 
 Installation
