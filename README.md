@@ -32,7 +32,7 @@ Define url to client application by setting the value for `server.cors.allowedOr
 ```
 mvn spring-boot:run
 ```
-Server will start on port 8080, port can be changed in `src/main/resources/application.properties` file.
+Server will start on port `8080`, port can be changed in `src/main/resources/application.properties` file.
 
 Build and run the [client project](https://github.com/andrei0000/food-trucks-client):
 
@@ -42,7 +42,7 @@ npm install
 npm run build:prod
 npm run server
 ```
-Server will start on port 3000 , port can be changed in `bs-config.json` file.
+Server will start on port `3000` , port can be changed in `bs-config.json` file.
 
 
 App demo
@@ -53,12 +53,12 @@ Trade-offs
 ---------
 
 If I'd have more time to spend on a project I would, at least:
-* Add API key based security to the services
-* Add caching support for the data retrieved from DataSF.
-* Host JS/CSS on jsDelivr.
-* Move google-api key definition from index.html to the settings file.
-* Document the service API
-* Enhance the UI (by making it more intuitive, adding a list of trucks that match the specified criteria, show the spinner if query takes too long to process etc.)
-* Create appropriate tests and add error handling for front-end.
+* Add API key based security to the services;
+* Add caching support for the data retrieved from DataSF;
+* Host JS/CSS on jsDelivr;
+* Move google-api key definition from index.html to the settings file;
+* Document the service API;
+* Enhance the UI (by making it more intuitive, adding a list of trucks that match the specified criteria, show the spinner if query takes too long to process etc.);
+* Create appropriate tests and add error handling for front-end;
 * Add support for a fine filtering for radius search instead of a search by a square.
 
