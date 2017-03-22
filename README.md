@@ -36,7 +36,7 @@ Server will start on port `8080`, port can be changed in `src/main/resources/app
 
 Build and run the [client project](https://github.com/andrei0000/food-trucks-client):
 
-Define url to server application by setting the value for `SERVER_URL` property from `src/app.config.js` file.
+Define url to server application by setting the value (host and port) for `SERVER_URL` property from `src/app.config.js` file.
 ```
 npm install 
 npm run build:prod
